@@ -1396,7 +1396,7 @@ input.whats-input[type=text]:focus {
   }
 
   .heading .sub-menu {
-    margin-top: -2rem;
+    margin-top: -4rem;
   }
 }
 
@@ -1417,7 +1417,7 @@ input.whats-input[type=text]:focus {
   }
 
   .service-box .box .sub-services {
-    font-size: 4rem;
+    font-size: 7rem;
   }
 
   .heading .blog-title {
@@ -1437,7 +1437,7 @@ input.whats-input[type=text]:focus {
   }
 
   .heading .title-menu {
-    font-size: 6rem;
+    font-size: 9rem;
   }
 
   .heading .sub-menu {
