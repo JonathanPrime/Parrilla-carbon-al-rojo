@@ -13,29 +13,29 @@
 }
 
 @font-face {
-  font-family: 'insaniburger';
+  font-family: 'piercejamesonserif';
   /*a name to be used later*/
-  src: url('../fonts/Insaniburguer-regular.ttf');
+  src: url('../fonts/Pierce-Jameson-Serif.ttf');
   /*URL to font*/
 }
 
 
 @font-face {
-  font-family: 'piercejamesonscript';
+  font-family: 'royalty';
   /*a name to be used later*/
-  src: url('../fonts/Pierce-Jameson-Script.otf');
+  src: url('../fonts/Royalty.ttf');
   /*URL to font*/
 }
 
 
 :root {
   --black: #1E1E1E;
-  --white: #fff;
+  --white: #FFFFFF;
   --gray: #aaa;
   --animation-curve: cubic-bezier(0.05, 0.07, 0.052, 0.052);
-  --palet-1: #D92026;
+  --palet-1: #C41A27;
   --palet-2: #FEB100;
-  --palet-3: #FF7400;
+  --palet-3: #E3292A;
 }
 
 * {
@@ -70,14 +70,14 @@ section {
 
 .heading .title-menu {
   text-align: center;
-  font-family: 'piercejamesonscript';
+  font-family: 'royalty';
   font-size: 8rem;
   color: var(--black);
 }
 
 .heading .sub-menu {
   text-align: center;
-  font-family: 'insaniburger';
+  font-family: 'piercejamesonserif';
   font-size: 7rem;
   margin-top: -4rem;
   color: var(--white);
@@ -159,7 +159,7 @@ img {
 }
 
 .logo-desing {
-  width: 8%;
+  width: 5%;
   height: auto;
 }
 
@@ -172,7 +172,7 @@ img {
   text-transform: uppercase;
   font-family: 'poppinsbold';
   margin-left: 2rem;
-  color: var(--black);
+  color: var(--white);
 }
 
 .header .nav a:hover {
@@ -271,7 +271,7 @@ img {
   line-height: 2;
   color: var(--white);
   padding: 2rem 0;
-  font-family: 'piercejamesonscript' !important;
+  font-family: 'royalty' !important;
 }
 
 .service-box {
@@ -302,15 +302,15 @@ img {
   padding: 1rem 0;
   font-size: 4rem;
   color: var(--black);
-  font-family: 'insaniburger';
+  font-family: 'piercejamesonserif';
 }
 
 .service-box .box .sub-services {
   padding: 1rem 0;
-  margin-top: -4rem;
-  font-size: 4rem;
+  margin-top: -5rem;
+  font-size: 6rem;
   color: var(--palet-1);
-  font-family: 'piercejamesonscript';
+  font-family: 'royalty';
 }
 
 .service-box .box p {
@@ -526,7 +526,7 @@ img {
 }
 
 .own-script {
-  font-family: 'piercejamesonscript';
+  font-family: 'royalty';
 
   font-size: 8rem;
   color: var(--palet-1);
@@ -552,8 +552,8 @@ img {
 
 .about .content .title {
   font-size: 6rem;
-  margin-top: -2rem;
-  font-family: 'insaniburger';
+  margin-top: -4rem;
+  font-family: 'piercejamesonserif';
   text-transform: uppercase;
   color: var(--black);
 }
@@ -596,7 +596,7 @@ img {
 }
 
 .heading .reviews-title {
-  font-family: 'insaniburger';
+  font-family: 'piercejamesonserif';
   font-size: 6rem;
   color: var(--black);
 }
@@ -1322,7 +1322,7 @@ input.whats-input[type=text]:focus {
   }
 
   .home {
-    grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
+    grid-template-columns: repeat(auto-fit, minmax(32rem, auto));
   }
 }
 
@@ -1345,7 +1345,7 @@ input.whats-input[type=text]:focus {
     justify-content: center;
   }
 
-  .home {
+  /* .home {
     background: none;
     grid-template-columns: repeat(auto-fit, minmax(22rem, auto));
   }
@@ -1371,7 +1371,7 @@ input.whats-input[type=text]:focus {
     background-position: center;
     justify-items: center;
     background: url(../images/banner-ver.jpg) 0 0;
-  }
+  } */
 
   .home .content h3 {
     font-size: 2.5rem;
@@ -1392,7 +1392,7 @@ input.whats-input[type=text]:focus {
   }
 
   .logo-desing {
-    width: 15%;
+    width: 10%;
   }
 
   .heading .sub-menu {
@@ -1433,7 +1433,7 @@ input.whats-input[type=text]:focus {
   }
 
   .logo-desing {
-    width: 18%;
+    width: 13%;
   }
 
   .heading .title-menu {

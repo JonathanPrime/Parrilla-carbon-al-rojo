@@ -540,7 +540,7 @@ popupWhatsApp = () => {
     let msg = document.getElementById('whats-in').value;
     let relmsg = msg.replace(/ /g, "%20");
     //just change the numbers "1515551234567" for your number. Don't use +001-(555)1234567     
-    window.open('https://wa.me/573102373466?text=' + relmsg, '_blank');
+    window.open('https://wa.me/573002878099?text=' + relmsg, '_blank');
 
   });
   /* Open pop-up in 15 seconds */
@@ -590,7 +590,7 @@ modalCloseX.addEventListener("click", () => {
       let relmsg = msg.replace(/ /g,"%20");
       var total_order = document.getElementById("total_order").innerHTML.toString();
   
-     window.open('https://wa.me/573102373466?text='+ relmsg + "%0a"
+     window.open('https://wa.me/573002878099?text='+ relmsg + "%0a"
     + "---------------------------------" + "%0a"
     + "       DATOS DEL PEDIDO          " + "%0a"
     + "---------------------------------" + "%0a"
