@@ -23,7 +23,7 @@
 @font-face {
   font-family: 'royalty';
   /*a name to be used later*/
-  src: url('../fonts/Royalty.ttf');
+  src: url('../fonts/royalty.ttf');
   /*URL to font*/
 }
 
@@ -552,7 +552,7 @@ img {
 
 .about .content .title {
   font-size: 6rem;
-  margin-top: -4rem;
+  margin-top: -3rem;
   font-family: 'piercejamesonserif';
   text-transform: uppercase;
   color: var(--black);
@@ -1409,7 +1409,7 @@ input.whats-input[type=text]:focus {
     font-size: 4rem;
   }
   .own-script {
-      font-size: 6rem;
+      font-size: 8rem;
   }
 
   .service-box .box .title-services {
@@ -1425,7 +1425,7 @@ input.whats-input[type=text]:focus {
   }
 
   .about .content .title {
-    font-size: 3.7rem;
+    font-size: 5.7rem;
   }
 
   .home .content p {
