@@ -219,15 +219,16 @@ img {
 .home {
   width: 100%;
   min-height: 100vh;
-  display: grid;
+  display: flex;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
-  gap: 1.5rem;
+  gap: 3.5rem;
   z-index: 1;
   background: url(../images/banner.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   justify-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .home-text, home-img {
@@ -1236,6 +1237,9 @@ input.whats-input[type=text]:focus {
 }
 
 @media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
   .blogs .box-container .box .image {
     height: 32rem;
   }
