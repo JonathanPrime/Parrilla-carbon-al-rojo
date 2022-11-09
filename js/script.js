@@ -589,24 +589,26 @@ modalCloseX.addEventListener("click", () => {
       let msg = document.getElementById('send_order').value;
       let relmsg = msg.replace(/ /g,"%20");
       var total_order = document.getElementById("total_order").innerHTML.toString();
+      let domicilio = (Number(total_order)+2000);
   
-     window.open('https://wa.me/573002878099?text='+ relmsg + "%0a"
-    + "---------------------------------" + "%0a"
-    + "       DATOS DEL PEDIDO          " + "%0a"
-    + "---------------------------------" + "%0a"
-    + carritoEnTexto + "%0a"
-    + "Total orden: $" + total_order + "%0a"
-    + "---------------------------------" + "%0a"
-    + "       DATOS DE CONTACTO          " + "%0a"
-    + "---------------------------------" + "%0a"
-    + "Nombre: " + name_user_uri + "%0a"
-    + "Teléfono:" + tel_user_uri + "%0a" 
-    + "Dirección: " + dir_user_uri + "%0a"
-    + "---------------------------------" + "%0a"
-    + "Muchas gracias.",
-    '_blank'); 
-    }
-  });
+      window.open('https://wa.me/573002878099?text='+ relmsg + "%0a"
+     + "---------------------------------" + "%0a"
+     + "       DATOS DEL PEDIDO          " + "%0a"
+     + "---------------------------------" + "%0a"
+     + carritoEnTexto + "%0a"
+     + "Costo del domicilio: $2.000," + "%0a"
+     + "Total orden: $" + domicilio + "%0a"
+     + "---------------------------------" + "%0a"
+     + "       DATOS DE CONTACTO          " + "%0a"
+     + "---------------------------------" + "%0a"
+     + "Nombre: " + name_user_uri + "%0a"
+     + "Teléfono:" + tel_user_uri + "%0a" 
+     + "Dirección: " + dir_user_uri + "%0a"
+     + "---------------------------------" + "%0a"
+     + "Muchas gracias.",
+     '_blank'); 
+     }
+   });
 /* } */
 /* } */
 
